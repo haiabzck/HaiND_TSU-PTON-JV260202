@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise10</title>
+</head>
+<body>
+    <main>
+        <h1>CatPhotoApp</h1>
+        <h3>Cat Photos</h3>
+        <p>Everyone loves <a href="">cute cats</a> online!</p>
+        <p>See more <a href="">cat photos</a> in our gallery.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tabby_cat_with_visible_nictitating_membrane.jpg/250px-Tabby_cat_with_visible_nictitating_membrane.jpg" alt="" width="200" height="200">
+        <h3>Cat Lits</h3>
+        <h4>Things cats love:</h4>
+        <ul>
+            <li>cat nip</li>
+            <li>laer pointers</li>
+            <li>lasagna</li>
+            <img src="https://static01.nyt.com/images/2023/08/31/multimedia/RS-Lasagna-hkjl/RS-Lasagna-hkjl-mediumSquareAt3X.jpg" alt="" width="200">
+            <figcaption>Cats <i>love</i> lasagna</figcaption>
+        </ul>
+        <h4>Top 3 things cats hate:</h4>
+        <ol>
+            <li>flea treayment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1K6oQrJfZ_Xam3bK9_YRh8zfcdKcCEG-dAY2GwfxRZfCVrYQA44wVFD4&s" alt="" width="300" height="200">
+            <figcaption>Cats <b>hate</b> other cats</figcaption>
+        </ol>
+        <h3>Cat Breed</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Breed</th>
+                    <th>Location of origin</th>
+                    <th>Type</th>
+                    <th>Body type</th>
+                    <th>Coat type and lenght</th>
+                    <th>Coat pattern</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="">Abyssinian <sup>[8]</sup></a></td>
+                    <td>Unspecified, but somewhere in Afro-Asia, likely Ethiopia <a href=""><sup>[9]</sup></a></td>
+                    <td>Natural</td>
+                    <td>Semi-foreign</td>
+                    <td>Short</td>
+                    <td>Ticked tabby</td>
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/960px-Gustav_chocolate.jpg" alt="" width="50"></td>
+                </tr>
+                <tr>
+                    <td><a href="">Aegean </a></td>
+                    <td>Greece</td>
+                    <td>Natural</td>
+                    <td>Moderate</td>
+                    <td>Semi-long</td>
+                    <td>Multi-color</td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrz_X0HAQvA0ZvzyQEyHjVozOJGEqnFnnj4JtKQkPNE542pqo_T-tYauS2TBQJ-cPdkcWO6zHh2j1-w34lDgJ6BmMScpscJNIqgFE9UA&s=10" alt="" width="50"></td>
+                </tr>
+                <tr>
+                    <td><a href="">American Bobtail <sup>[10]</sup></a></td>
+                    <td>United States <a href=""><sup>[11]</sup></a></td>
+                    <td>Mutation of shortened tail</td>
+                    <td>Cobby</td>
+                    <td>Semi-long</td>
+                    <td>All</td>
+                    <td><img src="https://d128mjo55rz53e.cloudfront.net/media/images/bobtail-japonais-2.max-400x400.format-jpeg.jpg" alt="" width="50"></td>
+                </tr>
+                <tr>
+                    <td><a href="">American Curl <sup>[12]</sup></a></td>
+                    <td>United States<a href=""><sup>[11]</sup></a></td>
+                    <td>Mutation</td>
+                    <td>Semi-foreign</td>
+                    <td>Semi-long</td>
+                    <td>All</td>
+                    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE8aVA12oFTCg2eqg56l8iPbfHMGxAmnI8AffOIBLmqbdnbxYX0iRH0UrL7aD85jEDO-OhoLijv4rv1T7XUE2YglEQWKVrEaTlCVn-AA&s=10" alt="" width="50"></td>
+                </tr>
+                <tr>
+                    <td><a href="">American Ringtail </a></td>
+                    <td>United States<a href=""><sup>[11]</sup></a></td>
+                    <td>Mutation</td>
+                    <td>Foreign</td>
+                    <td>Semi-long</td>
+                    <td>All</td>
+                    <td><img src="https://static.wikia.nocookie.net/cats/images/d/d6/American_Ringtail.jpg/revision/latest?cb=20240707175114&path-prefix=en" alt="" width="50"></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Cat Form</h3>
+        <form action="">
+            <fieldset style="width:100%;border: 2px solid gray;">
+                <legend style="padding: 5px;;"> Is your cat an indoor or outdoor cat?</legend>
+                    <input type="radio" id="indoor" name="fav_language" value="Indoor" checked>
+                    <label for="indoor">Indoor</label>
+                    <input type="radio" id="outdoor" name="fav_language" value="Outdoor">
+                    <label for="outdoor">Outdoor</label>
+            </fieldset>
+             <fieldset style="width:100%;border: 2px solid gray;">
+                <legend style="padding: 5px;;">What's your cat's personality?</legend>
+                    <input type="checkbox" name="" id="" checked>Loving
+                    <input type="checkbox" name="" id="">Lazy
+                    <input type="checkbox" name="" id="">Energetic
+            </fieldset>
+            <input  type="text" name="" id="" value="cat photo URL"><input type="submit" value="Submit">
+        </form>
+        <p>No Copyright - <a href="">rikkei.edu.vn</a></p>
+    </main>
+</body>
+</html>
