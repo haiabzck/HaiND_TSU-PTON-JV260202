@@ -1,0 +1,19 @@
+/* reset css mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css trang web */
+.text-blue {
+  color: #3e3efd;
+}
+div{
+    padding: 5px;
+    margin: 30px;
+    border: 1px solid black;
+    width: 610px;
+}
+p{
+    margin-bottom: 10px;
+}
