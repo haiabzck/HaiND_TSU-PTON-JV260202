@@ -1,0 +1,91 @@
+b{
+  font-size: 30px;
+}
+#fade-in {
+  width: 200px;
+  background-color: rgb(178, 184, 178);
+  margin: 50px;
+  color: white;
+  text-align:  center;
+  padding: 100px;
+}
+
+#fade-in:hover {
+  background-color: rgb(112, 112, 112);
+}
+#change-color {
+  width: 200px;
+  background-color: rgb(112, 112, 112);
+  margin: 50px;
+  color: white;
+  text-align:  center;
+  padding: 100px;
+}
+
+#change-color:hover {
+  background-color: blue;
+}
+
+#grow{
+  width: 200px;
+  background-color: rgb(112, 112, 112);
+  margin: 50px;
+  color: white;
+  text-align:  center;
+  padding: 100px;
+  transition: transform .2s; 
+}
+#grow:hover {
+ transform: scale(1.25);
+}
+#shrink{
+  width: 200px;
+  background-color: rgb(112, 112, 112);
+  margin: 50px;
+  color: white;
+  text-align:  center;
+  padding: 100px;
+  transition: transform .2s; 
+}
+#shrink:hover {
+ transform: scale(0.75);
+}
+#rotate{
+  width: 200px;
+  background-color: rgb(112, 112, 112);
+  margin: 50px;
+  color: white;
+  text-align:  center;
+  padding: 100px;
+  transition: transform .2s; 
+}
+#rotate:hover {
+ transform: rotate(45deg);
+ 
+}
+#square{
+  width: 200px;
+  background-color: rgb(112, 112, 112);
+  margin: 50px;
+  color: white;
+  text-align:  center;
+  padding: 100px;
+  transition: border-radius .2s; 
+}
+#square:hover {
+ border-radius: 50%;
+ 
+}
+#inset{
+  width: 200px;
+  background-color: rgb(112, 112, 112);
+  margin: 50px;
+  color: white;
+  text-align:  center;
+  padding: 100px;
+  box-shadow: inset 0 0 0 0px transparent;
+  transition: box-shadow 0.3s ease-in-out;
+}
+#inset:hover {
+ box-shadow: inset 0 0 0 25px #3232c2;
+}
