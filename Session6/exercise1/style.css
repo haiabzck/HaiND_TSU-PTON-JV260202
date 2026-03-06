@@ -8,36 +8,34 @@ body{
 }
 
 .navbar{
-    background: #4CAF50;
-    height: 70px;
-    position: relative;
+    background: #007BFF;
     color: white;
+    text-align: center;
+    padding: 40px;
 }
-.logo{
-    position: absolute;
-    top: 25px;
-    left: 40px;
-}
-.menu{
-    position: absolute;
-    right: 40px;
-    top: 25px;
-}
-.menu a{
+.menu a ,h1{
     text-decoration: none;
     color: white;
-    margin:10px ;
+    margin:15px ;
 }
 .hero{
-    background-color: #f4f4f4;
-    padding: 100px 0;
-    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
 }
-.btnstar{
-    color: white;
-    border-radius: 5px;
-    padding: 10px;
-    background: #4CAF50;
-    border: none;
-
+.hero img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.footer-contact{
+    text-align: center;
+    background-color: #F1F1F1;
+    padding: 20px;
+}
+.footer-contact a{
+    color: blue;
 }
