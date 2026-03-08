@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+.header {
+  background-color: #333333;
+  color: white;
+  padding-left: 15px;
+  height: 70px;
+  position: relative;
+}
+.logo{
+    position: absolute;
+    left: 15%;
+    top: 23px;
+}
+.menu{
+    position: absolute;
+    right: 15%;
+    top: 25px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin:10px ;
+}
+.container {
+  padding: 15px;
+}
+
+.sidebar {
+  background-color: #F4F4F4;
+  padding: 1px 15px;
+  border-radius: 5px;
+  margin-left: 10%;
+  width: 40%;
+}
+.content h2,.content h3,.content p,.sidebar h2,.sidebar h3,.sidebar p{
+  margin: 20px 0;
+}
+p a{
+  text-decoration: none;
+  color: blue;
+}
+.content {
+  background-color: #F9F9F9;
+  padding: 1px 15px;
+  border-radius: 5px;
+  margin-left: 10%;
+  width: 40%;
+}
+.text-truncate {
+  width: 200px;                /* Hoặc bất kỳ độ rộng nào */
+  white-space: nowrap;         /* Không cho xuống dòng */
+  overflow: hidden;            /* Ẩn phần văn bản dư thừa */
+  text-overflow: ellipsis;     /* Hiển thị dấu ... */
+}
+.footer {
+  background-color: #333333;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}

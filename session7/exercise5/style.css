@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.flex-sidebar{
+  padding: 0 5px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.flex-big{
+  height: 100%;
+  width: 100%;
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+.flex-container {
+  padding: 0 5px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+.flex-item {
+  width: calc(
+    50% - 5px
+  ); /* diện tích tổng thể là 100% --> 4 ô 1 hàng thì mỗi ô là 25% và phải trừ đi khoảng cách gap ở trên */
+  height: 50px;
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
