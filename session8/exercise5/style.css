@@ -7,12 +7,12 @@ body{
     padding: 0;
 }
 .header {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 20px 50px;
 }
 
 nav ul {
@@ -20,17 +20,16 @@ nav ul {
   display: flex;
   gap: 20px;
 }
-
 .banner {
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: gray;
-  height: 500px;
-  font-size: 100px;
+  flex-wrap: wrap;
+  background-color: #FAFAFB;
   color: #cecece;
 }
-
+.banner p{
+  width: 100%;
+}
 .information {
   margin-top: 20px;
   display: flex;
